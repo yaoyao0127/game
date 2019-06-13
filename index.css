@@ -1,0 +1,34 @@
+.game-area-line{
+  display: flex;
+  width: 500px;
+  margin: 70px auto;
+  justify-content: center;
+}
+.hole{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+.has-pic{
+  background-image: url("orange.jpeg");
+  background-size: 130%;
+  transform:rotate(90deg);
+}
+.start-btn{
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+}
+.ml300{
+  margin-left: 300px;
+}
+.score{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #009688a8;
+  line-height: 70px;
+  text-align: center;
+  font-size: 25px;
+}
